@@ -14,37 +14,6 @@ scrollbar-width: none;
 body::-webkit-scrollbar {
     display: none;
 }
-ul {
-    list-style-type: none;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-ul li{
-    display: inline;
-}
-ul a{
-    border-radius: 0px 30px 0px 30px;
-    background-color: #537895;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-    border: 2px solid white;
-    color:white;
-    text-decoration: none;
-    display:inline-block;
-    padding:10px;
-}
-ul a:hover{
-    color:rgb(0, 68, 255);
-}
-li a{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.menu{
-    padding-bottom: 5%;
-}
 form{
     margin: auto;
     width: 70%;
