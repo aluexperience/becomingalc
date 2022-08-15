@@ -1,6 +1,6 @@
 /*Universal Styles*/
 * {
-    font-family: serif ;
+    font-family: serif !important;
     color: black ;
 }
 
@@ -447,7 +447,7 @@ h1{
 .show-text .show-description{
     margin: 20px 0;
     font-weight: 300;
-    color: #686868;
+    color: white;
     line-height: 1.4;
 }
 .show-text label{
@@ -506,4 +506,40 @@ h1{
     color: white;
     font-size: 15px;
 }
+
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'Show more';
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+  }
   
