@@ -1,0 +1,83 @@
+
+
+.footContainer{
+    width:100%;
+    margin-top:10%;
+    /*margin-bottom: 4%;*/
+    /*height:200px;*/
+    height: auto;
+    /*background-color:white;*/
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619fc4 130%);
+}
+
+.footWrapper{
+    display:flex;
+    justify-content:space-between;
+    padding:10px ;
+}
+
+.footlogo img{
+    width:100%;
+    object-fit:cover;
+    height:200px;
+}
+.footAddress{
+    display:flex;
+    flex-flow:column wrap;
+    margin-right: 5%;
+    /*color:blue;*/
+    color:white;
+}
+.footCampus{
+    margin-top:2%;
+}
+
+.footList ,.privacyP{
+    display:flex;
+    list-style:none;
+    flex-flow: column wrap;
+    font-weight:300;
+    justify-content:flex-end;
+}
+li{
+    /*color:#132e57;*/
+    color:white;
+}
+
+.footlogo{
+    display:flex;
+    margin-right: 10px;
+}
+.copr{
+    display:flex;
+    flex-flow: column wrap;
+    align-items:flex-start;
+    justify-content:flex-end;
+    height:100%;
+    padding-bottom: 25px;
+    /*color:#132e57;*/
+    color:white;
+
+}
+
+.ico{
+    display:flex;
+    justify-content:space-around;
+    color:#132e57;
+
+}
+
+.iconItem{
+    margin-left: 8%;
+    font-size:25px;
+}
+
+@media only screen and (max-width: 420px) {
+    .footWrapper{
+        display:flex;
+        flex-flow: column wrap;
+        padding:10px;
+    }
+
+}
